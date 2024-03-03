@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.start {
+  opacity : 0
+}
+.end {
+  opacity : 1;
+  transition : opacity 0.5s;
+}
+
+.main-bg {
+  height : 400px;
+  background-image : url('./차은우.png');
+  background-size : cover;
+  background-position : center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
